@@ -8,11 +8,10 @@ function addHeader(){
     header.innerHTML += "<hr class='light'> ";
 
     list = document.getElementById("navMenu");
-    list.innerHTML += "<li id='navMenuSleep'> <a href='sleep.html'>Sleep</a> </li> ";
-    list.innerHTML += "<li id='navMenuEat'> <a href='eat.html'>Eat</a> </li> ";
-    list.innerHTML += "<li id='navMenuPlay'> <a href='play.html'>Play</a> </li> ";
+    list.innerHTML += "<li id='navMenuCelebrate'> <a href='celebrate.html'>Celebrate</a> </li> ";
     list.innerHTML += "<li id='navMenuTravel'> <a href='travel.html'>Travel</a> </li> ";
-
+    list.innerHTML += "<li id='navMenuSleep'> <a href='sleep.html'>Sleep</a> </li> ";
+    list.innerHTML += "<li id='navMenuExplore'> <a href='explore.html'>Explore</a> </li> ";
 }
 
 function insertContent(){

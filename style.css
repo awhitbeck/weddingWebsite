@@ -47,8 +47,8 @@ div.centerPanel{
     opacity: 1 ; 
     text-align: center ;
     #height: 100%;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 div.header{

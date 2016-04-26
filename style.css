@@ -1,0 +1,96 @@
+
+a{
+  text-decoration: none;
+  color: #5B687B;
+}
+
+a:active{
+    text-decoration: none;
+    color: #bc984e;
+}
+
+div{
+    font-family: 'Open Sans' ;
+    margin: 0 auto ;  
+    margin-top: -20px ; 
+    width: 730px ;
+    #height: 100% ;
+}
+
+#map{
+    width: 400px;
+    height: 400px;
+}
+
+.entire{
+    #background-color: #e8e1d9 ;
+    #background-image: url('white-parchment-paper-texture.jpg') ;
+    margin: 0 ;
+    position: fixed ;
+    left: 0px ;
+    top: 0px ; 
+    height: 100% ;
+    width: 100% ;
+    z-index: -999;
+}
+
+img.entire{
+    height: 100% ;
+    width: 100% ;
+    opacity: .4 ;
+}
+
+div.centerPanel{
+    #background-color: #f6f5f3 ;
+    #background-color: #f5f5f5 ;
+    background-color: #ffffff ;
+    opacity: 1 ; 
+    text-align: center ;
+    #height: 100%;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+div.header{
+    font-family: 'Poiret One' ;
+    background-color: #ffffff ; 
+    opacity: 0. ;
+    height: 225px ; 
+    position: fixed ;
+}
+
+hr.light{
+    border-top: 1px solid #E5E5E5;
+    border-bottom: 0px solid #FFFFFF ;
+    width: 100% ;
+}
+
+div.content{
+    padding-top: 225px;
+    z-index: -99;
+    #position: relative ;
+    height: 100% ;
+}
+
+ul.headerList{
+    font-family: 'Open Sans' ;
+    list-style-type: none ; 
+    list-style: none ; 
+    padding: 0 ; 
+    margin: 0 ; 
+}
+
+ul.headerList li{
+    padding-left: 20px;
+    padding-right: 20px;
+    display: inline ;
+}
+
+body{
+    background-color: #e8e1d9 ;
+    #background-color: #e6e1db ;
+    font-family: 'Open Sans' ;
+    font-weight: 300 ;
+}
+
+.active { color: #c09d4b; }

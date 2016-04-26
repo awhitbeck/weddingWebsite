@@ -1,0 +1,39 @@
+<html>
+
+<head>
+
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Amatic+SC' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+  <link href='style.css' rel='stylesheet' type='text/css'>
+  <script src="scipts.js"></script>  
+
+</head>
+
+<body onLoad="addHeader()">
+
+  <div> <!-- class="entire"> //-->
+
+    <img src="white-parchment-paper-texture.jpg" class="entire"/>
+    <div class="centerPanel" id="body-cpanel">
+      <div class="header" id="body-cpanel-header">
+      </div>
+      <div class="content" style="text-align:left">
+
+	<p>
+          We will add much more detail here later, but for those of you who will need to fly, here is some initial information.
+          <br><br>
+	  <b> Airports: </b>
+          <br>
+          <br>
+          You can fly to either Logan International Airport (BOS) or Manchester-Boston Regional Airport (MHT). Logan is the Boston airport and is therefore usually the cheapest and most direct option for flights, but it is about a two hour drive to/from Harrisville from there.  Manchester is closer, with a drive of about 1 hr 15 minutes, and can be more convenient given its smaller size, but might have more limited flight options (Southwest does have many flights to Manchester though).
+	</p>
+
+      </div> <!-- end content div //-->
+    </div> <!-- end center panel div //-->
+    
+  </div> <!-- end entire div //-->
+
+</body>
+
+</html>

@@ -1,4 +1,4 @@
-function addHeader(){
+function addHeader(pageName=""){
 
     header = document.getElementById("body-cpanel-header");
 
@@ -8,10 +8,27 @@ function addHeader(){
     header.innerHTML += "<hr class='light'> ";
 
     list = document.getElementById("navMenu");
-    list.innerHTML += "<li id='navMenuCelebrate'> <a href='celebrate.html'>Celebrate</a> </li> ";
-    list.innerHTML += "<li id='navMenuTravel'> <a href='travel.html'>Travel</a> </li> ";
-    list.innerHTML += "<li id='navMenuSleep'> <a href='sleep.html'>Sleep</a> </li> ";
-    list.innerHTML += "<li id='navMenuExplore'> <a href='explore.html'>Explore</a> </li> ";
+
+    if( pageName == "celebrate" ){
+	list.innerHTML += "<li id='navMenuCelebrate'> <a style='color:#bc984e'  href='celebrate.html'>Celebrate</a> </li> ";
+    }else{    
+	list.innerHTML += "<li id='navMenuCelebrate'> <a href='celebrate.html'>Celebrate</a> </li> ";
+    }
+    if( pageName == "travel" ){
+	list.innerHTML += "<li id='navMenuTravel'> <a style='color:#bc984e' href='travel.html'>Travel</a> </li> ";
+    }else{
+	list.innerHTML += "<li id='navMenuTravel'> <a href='travel.html'>Travel</a> </li> ";
+    }
+    if( pageName == "sleep" ){
+	list.innerHTML += "<li id='navMenuSleep'> <a style='color:#bc984e' href='sleep.html'>Sleep</a> </li> ";
+    }else{
+	list.innerHTML += "<li id='navMenuSleep'> <a href='sleep.html'>Sleep</a> </li> ";
+    }
+    if( pageName == "explore" ){
+	list.innerHTML += "<li id='navMenuExplore'> <a style='color:#bc984e' href='explore.html'>Explore</a> </li> ";
+    }else{
+	list.innerHTML += "<li id='navMenuExplore'> <a href='explore.html'>Explore</a> </li> ";
+    }
 }
 
 function insertContent(){
